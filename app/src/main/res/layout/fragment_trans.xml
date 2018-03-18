@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#404040"
+    tools:context="com.example.dsameer.mybankapp.TransFragment">
+
+
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/trans_amount"
+        android:hint="Enter Amount"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:drawableRight="@drawable/pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/trans_group"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/trans_d"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Debit" />
+
+        <RadioButton
+            android:id="@+id/trans_c"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Credit" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/trans_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="#0066cc"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        />
+
+</LinearLayout>

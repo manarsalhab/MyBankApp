@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#404040"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dsameer.mybankapp.CreditFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/credit_tv"
+        android:text="2000"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+
+        />
+
+</LinearLayout>
